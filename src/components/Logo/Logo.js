@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import config from '../../config';
-import LogoImageMobile from './sneakertime-logo-mobile.png';
-import LogoImage from './sneakertime-logo.png';
+import LogoImageMobile from './Screenshot 2021-10-26 at 21.15.51.png';
+import LogoImage from './Screenshot 2021-10-26 at 21.15.51.png';
 
 const Logo = props => {
   const { className, format, ...rest } = props;
