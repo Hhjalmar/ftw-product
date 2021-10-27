@@ -49,16 +49,65 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'art', label: 'Art' },
-        { key: 'decor', label: 'Decor'},
-        { key: 'fashion', label: 'Fashion' },
-        { key: 'jewelry', label: 'Jewelry' },
         { key: 'furniture', label: 'Furniture' },
-        { key: 'lightning', label: 'Lightning' }, 
+        { key: 'lighting', label: 'Lighting' },
+        { key: 'decor', label: 'Decor' },
+        { key: 'art', label: 'Art' },
+        { key: 'jewelry', label: 'Jewelry' },
+        { key: 'fashion', label: 'Fashion' },
       ],
     },
   },
+  {
+    id: 'size',
+    label: 'Item Type',
+    type: 'SelectMultipleFilter',
+    group: 'secondary',
+    queryParamNames: ['pub_size'],
+    config: {
+      // Schema type options: 'enum', 'multi-enum'
+      // Both types can work so that user selects multiple values when filtering search results.
+      // With "enum" the functionality will be OR-semantics (Nike OR Adidas OR Salomon)
+      // With "multi-enum" it's possible to use both AND and OR semantics with searchMode config.
+      schemaType: 'enum',
 
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+        { key: 'antiqueandvintage', label: 'Antique and Vintage' },
+        { key: 'Newandmadetoorder', label: 'New and Made To Order' },
+        { key: '21st Century Pre-owner', label: '21st Century Pre-Owned' },
+       
+      ],
+    },
+  },
+  {
+    id: 'brand',
+    label: 'Location',
+    type: 'SelectMultipleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_location'],
+    config: {
+      // Schema type options: 'enum', 'multi-enum'
+      // Both types can work so that user selects multiple values when filtering search results.
+      // With "enum" the functionality will be OR-semantics (Nike OR Adidas OR Salomon)
+      // With "multi-enum" it's possible to use both AND and OR semantics with searchMode config.
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+        { key: 'europe', label: 'Europe' },
+        { key: 'northAmerica', label: 'North America' },
+        { key: 'southamerica', label: 'South America' },
+        { key: 'Asia', label: 'Asia' },
+      ],
+    },
+  },
   {
     id: 'price',
     label: 'Price',
@@ -159,5 +208,5 @@ export const sortConfig = {
 export const listing = {
   // These should be listing details from public data with schema type: enum
   // SectionDetailsMaybe component shows these on listing page.
-  enumFieldDetails: ['size', 'brand', 'category'],
+  enumFieldDetails: ['size', 'location', 'category'],
 };
