@@ -31,7 +31,12 @@
  *         you can just add more configurations with those filter types
  *         and tie them with correct extended data key
  *         (i.e. pub_<key> or meta_<key>).
+ * 
+ * 
+ * 
  */
+
+
 
 export const filters = [
   {
@@ -49,6 +54,7 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
+
         { key: 'furniture', label: 'Furniture' },
         { key: 'lighting', label: 'Lighting' },
         { key: 'decor', label: 'Decor' },
@@ -137,6 +143,10 @@ export const filters = [
     // You can turn on/off ordering by distance from config.js file.
     config: {},
   },
+  
+    
+  
+  
 
   // Here is an example of multi-enum search filter.
   //

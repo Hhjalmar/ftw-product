@@ -122,3 +122,4 @@ const LandingPage = compose(
 )(LandingPageComponent);
 
 export default LandingPage;
+
