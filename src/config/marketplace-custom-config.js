@@ -41,7 +41,7 @@
 export const filters = [
   {
     id: 'category',
-    label: 'Category',
+    label: 'Lighting',
     type: 'SelectSingleFilter',
     group: 'primary',
     queryParamNames: ['pub_category'],
@@ -55,12 +55,131 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
 
-        { key: 'furniture', label: 'Furniture' },
-        { key: 'lighting', label: 'Lighting' },
-        { key: 'decor', label: 'Decor' },
-        { key: 'art', label: 'Art' },
+        { key: 'chandeliers', label: 'Chandeliers & Pedants' },
+        { key: 'tablelamps', label: 'Table Lamps' },
+        { key: 'wallighting', label: 'Wall Lighting' },
+        { key: 'floorlamp', label: 'Floor Lamps' },
+      ],
+    },
+  },
+  {
+    id: 'decor',
+    label: 'Decor',
+    type: 'SelectSingleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_category'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+
+        { key: 'vases', label: 'Vases and Vessels' },
+        { key: 'bowls', label: 'Bowls and Baskets' },
+        { key: 'candle', label: 'Candle Holders' },
+        { key: 'sculptures', label: 'Sculptures' },
+        { key: 'tableware', label: 'Tableware' },
+        { key: 'rugs', label: 'Rugs and Carpets' },
+        { key: 'other', label: 'Other Fabrics' },
+      ],
+    },
+  },
+  {
+    id: 'art',
+    label: 'Art',
+    type: 'SelectSingleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_category'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+
+        { key: 'paintings', label: 'Paintings' },
+        { key: 'drawings', label: 'Drawings and watercolour paintings' },
+        { key: 'sculptures', label: 'Sculptures' },
+        { key: 'prints', label: 'Prints' },
+        { key: 'photography', label: 'Photography' },
+      ],
+    },
+  },
+  {
+    id: 'furniture',
+    label: 'Furniture',
+    type: 'SelectSingleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_category'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+
+        { key: 'seating', label: 'Seating' },
+        { key: 'table', label: 'Table' },
+        { key: 'storage', label: 'Storage' },
+      ],
+    },
+  },
+  {
+    id: 'jewelry',
+    label: 'Jewelry',
+    type: 'SelectSingleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_category'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+
+        { key: 'rings', label: 'Rings' },
+        { key: 'necklaces', label: 'Necklaces' },
+        { key: 'watches', label: 'Watches' },
+        { key: 'earrnings', label: 'Earrings' },
         { key: 'jewelry', label: 'Jewelry' },
-        { key: 'fashion', label: 'Fashion' },
+        { key: 'bracelets', label: 'Bracelets' },
+      ],
+    },
+  },
+  {
+    id: 'fashion',
+    label: 'Fashion',
+    type: 'SelectSingleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_category'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+
+        { key: 'clothing', label: 'Clothing' },
+        { key: 'handbags', label: 'handbags' },
+        { key: 'accessories', label: 'Accessories' },
+        { key: 'shoes', label: 'Shoes' },
+
       ],
     },
   },
