@@ -13,6 +13,8 @@ import { propTypes } from '../../../../util/types';
 // Import shared components
 import { Button, FieldCheckboxGroup, Form } from '../../../../components';
 
+;
+
 // Import modules from this directory
 import css from './EditListingFeaturesForm.module.css';
 
@@ -100,6 +102,7 @@ EditListingFeaturesFormComponent.propTypes = {
   }),
   filterConfig: propTypes.filterConfig,
 };
+
 
 const EditListingFeaturesForm = EditListingFeaturesFormComponent;
 

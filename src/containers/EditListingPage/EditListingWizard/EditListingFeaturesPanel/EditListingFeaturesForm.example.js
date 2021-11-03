@@ -2,6 +2,7 @@ import EditListingFeaturesForm from './EditListingFeaturesForm';
 
 const NAME = 'amenities';
 
+
 const initialValueArray = ['towels', 'jacuzzi', 'bathroom'];
 const initialValues = { [NAME]: initialValueArray };
 
@@ -45,5 +46,5 @@ export const Amenities = {
     ready: false,
     filterConfig,
   },
-  group: 'page:EditListingPage',
+  group: 'page:EditListingPage', 
 };
