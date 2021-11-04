@@ -338,6 +338,7 @@
   "Footer.toContactPage": "Contact",
   "Footer.toFAQPage": "FAQ",
   "Footer.toHelpPage": "Help",
+  "Footer.toBlogPage": "Blog",
   "Footer.toNewListingPage": "Sell your items",
   "ImageCarousel.imageAltText": "Listing image {index}/{count}",
   "ImageFromFile.couldNotReadFile": "Could not read file",
