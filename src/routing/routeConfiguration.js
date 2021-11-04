@@ -38,6 +38,9 @@ const TermsOfServicePage = loadable(() => import(/* webpackChunkName: "TermsOfSe
 const TransactionPage = loadable(() => import(/* webpackChunkName: "TransactionPage" */ '../containers/TransactionPage/TransactionPage'));
 const FAQPage = loadable(() =>import( /* webpackChunkName: "FAQPage" */ '../containers/FAQPage/FAQPage'));
 const HelpPage = loadable(() =>import( /* webpackChunkName: "HelpPage" */ '../containers/HelpPage/HelpPage'));
+const BlogPage = loadable(() =>import( /* webpackChunkName: "BlogPage" */ '../containers/BlogPage/BlogPage'));
+
+
 
 
 // Styleguide helps you to review current components and develop new ones
@@ -89,6 +92,11 @@ const routeConfiguration = () => {
       path: '/about',
       name: 'AboutPage',
       component: AboutPage,
+    },
+    {
+      path: '/blog',
+      name: 'BlogPage',
+      component: BlogPage,
     },
     {
       path: '/s',
