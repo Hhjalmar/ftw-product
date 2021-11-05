@@ -301,7 +301,7 @@ class TopbarComponent extends Component {
         />
 
         <GenericError show={showGenericError} />
-      </div>
+    </div>
     );
   }
 }

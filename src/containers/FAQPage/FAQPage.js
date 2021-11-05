@@ -37,6 +37,7 @@ const FAQPage = () => {
             
             <h3>What kind pictures I should take of my items?</h3>
             <p>Clear photos that includes only the item that you are selling, or against white background if possible - poor quality listing can be taken down from our site and you might be asked to list them item again with better photos.</p>
+            <p>A good rule of thumb is to make sure that the photo is brightly lit and you can see only the item you are selling.</p>
             
            
           </div>
