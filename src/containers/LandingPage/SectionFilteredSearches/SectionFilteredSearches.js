@@ -12,8 +12,8 @@ import css from './SectionFilteredSearches.module.css';
 // Update images by saving images to src/LandingPage/SeactionFilteredSearches/images directory.
 // If those images have been saved with the same name, no need to make changes to these imports.
 import imageForFilter1 from './images/IMG_0494 (1).jpeg';
-import imageForFilter2 from './images/annie-spratt-67L7k6dlZVA-unsplash.jpeg';
-import imageForFilter3 from './images/beam_oato_chair-1.jpeg';
+import imageForFilter2 from './images/download (1).jpeg';
+import imageForFilter3 from './images/tumblr_45b19ac252f9a27d74a360f578f7c661_e8aaba55_1280.jpeg';
 
 // Thumbnail image for the search "card"
 class ThumbnailImage extends Component {
