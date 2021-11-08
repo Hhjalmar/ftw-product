@@ -13,7 +13,7 @@ import css from './SectionFilteredSearches.module.css';
 // If those images have been saved with the same name, no need to make changes to these imports.
 import imageForFilter1 from './images/IMG_0494 (1).jpeg';
 import imageForFilter2 from './images/download (1).jpeg';
-import imageForFilter3 from './images/tumblr_45b19ac252f9a27d74a360f578f7c661_e8aaba55_1280.jpeg';
+import imageForFilter3 from './images/Egw5InDXgAUAof1.jpeg';
 
 // Thumbnail image for the search "card"
 class ThumbnailImage extends Component {
