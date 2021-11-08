@@ -40,6 +40,30 @@
 
 export const filters = [
   {
+    id: 'art',
+    label: 'Art',
+    type: 'SelectSingleFilter',
+    group: 'primary',
+    queryParamNames: ['pub_category'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for the UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+
+        { key: 'paintings', label: 'Paintings' },
+        { key: 'drawings', label: 'Drawings and watercolour paintings' },
+        { key: 'sculptures', label: 'Sculptures' },
+        { key: 'prints', label: 'Prints' },
+        { key: 'photography', label: 'Photography' },
+      ],
+    },
+  },
+  {
     id: 'category',
     label: 'Lighting',
     type: 'SelectSingleFilter',
@@ -85,30 +109,6 @@ export const filters = [
         { key: 'tableware', label: 'Tableware' },
         { key: 'rugs', label: 'Rugs and Carpets' },
         { key: 'other', label: 'Other Fabrics' },
-      ],
-    },
-  },
-  {
-    id: 'art',
-    label: 'Art',
-    type: 'SelectSingleFilter',
-    group: 'primary',
-    queryParamNames: ['pub_category'],
-    config: {
-      // Schema type is enum for SelectSingleFilter
-      schemaType: 'enum',
-
-      // "key" is the option you see in Flex Console.
-      // "label" is set here for the UI only.
-      // Note: label is not added through the translation files
-      // to make filter customizations a bit easier.
-      options: [
-
-        { key: 'paintings', label: 'Paintings' },
-        { key: 'drawings', label: 'Drawings and watercolour paintings' },
-        { key: 'sculptures', label: 'Sculptures' },
-        { key: 'prints', label: 'Prints' },
-        { key: 'photography', label: 'Photography' },
       ],
     },
   },
