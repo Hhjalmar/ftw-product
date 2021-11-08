@@ -29,7 +29,8 @@ const BlogPage = () => {
             <h3>Here we will feature our users and post related content :)</h3>
             <p></p>
           
-            
+         
+
            
           </div>
         </LayoutWrapperMain>
