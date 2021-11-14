@@ -138,7 +138,7 @@ const siteInstagramPage = 'https://www.instagram.com/himassa_kauppa/';
 // Facebook page is used in SEO schema (http://schema.org/Organization)
 const siteFacebookPage = 'https://www.facebook.com/himassa.kauppa/';
 
-const siteBonfirePage = 'https://www.bonfire.com/store/himassa-clothing/';
+
 
 // Social logins & SSO
 

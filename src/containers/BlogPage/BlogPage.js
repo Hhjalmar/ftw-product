@@ -26,10 +26,10 @@ const BlogPage = () => {
           <h1>BLOG</h1>
 
           <div>
-            <h3>Here we will feature our users and post related content :)</h3>
+          <h3>Here we will feature blog posts.</h3>
+
             <p></p>
           
-         
 
            
           </div>
