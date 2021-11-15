@@ -117,7 +117,7 @@ const mandatoryVariables = settings => {
   const currencyDefault =
     settings && settings.REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY !== ''
       ? settings.REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY
-      : 'USD';
+      : 'EUR';
 
   return [
     {

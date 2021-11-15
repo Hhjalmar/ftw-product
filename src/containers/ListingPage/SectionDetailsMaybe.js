@@ -14,16 +14,25 @@ const SectionDetailsMaybe = props => {
 
   const pickExtendedData = filterConfig => (rows, key) => {
     const publicDataValue = publicData[key];
-    if (publicDataValue) {
+    if (publicDataValue && typeof publicDataValue === 'string') {
       const filterIfItExists = filterConfig.find(f => f.id === key);
       const filterOptions = filterIfItExists?.config?.options || [];
       const value = filterOptions.find(o => o.key === publicDataValue)?.label || publicDataValue;
       const label = filterIfItExists?.label || `${key.charAt(0).toUpperCase()}${key.slice(1)}`;
+       
+      
+
+
+      
 
       return rows.concat({ key, value, label });
+
     }
     return rows;
+
+    
   };
+
 
   const existingExtendedData = listing?.enumFieldDetails.reduce(pickExtendedData(filters), []);
 
