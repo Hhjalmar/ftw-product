@@ -60,7 +60,7 @@ export const EditListingPricingFormComponent = props => (
       const priceValidators = config.listingMinimumPriceSubUnits
         ? validators.composeValidators(priceRequired, minPriceRequired)
         : priceRequired;
-
+      
       const stockValidator = validators.numberAtLeast(
         intl.formatMessage({ id: 'EditListingPricingForm.stockIsRequired' }),
         0
@@ -106,8 +106,9 @@ export const EditListingPricingFormComponent = props => (
             label={intl.formatMessage({ id: 'EditListingPricingForm.stockLabel' })}
             placeholder={intl.formatMessage({ id: 'EditListingPricingForm.stockPlaceholder' })}
             type="number"
-            min={0}
-            validate={stockValidator}
+        
+
+            
           />
           {setStockError ? <p className={css.error}>{stockErrorMessage}</p> : null}
 

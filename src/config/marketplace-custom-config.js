@@ -55,11 +55,15 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
 
-        { key: 'paintings', label: 'Paintings' },
+        { key: 'painting', label: 'Paintings' },
         { key: 'drawings', label: 'Drawings and watercolour paintings' },
         { key: 'sculptures', label: 'Sculptures' },
         { key: 'prints', label: 'Prints' },
         { key: 'photography', label: 'Photography' },
+        { key: 'abstract', label: 'Abstract' },
+        { key: 'contemporary', label: 'Contemporary' },
+
+        
       ],
     },
   },

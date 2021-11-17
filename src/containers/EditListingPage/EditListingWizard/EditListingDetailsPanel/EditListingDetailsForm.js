@@ -233,7 +233,6 @@ const EditListingDetailsFormComponent = props => (
             options={brands}
             label={brandLabel}
             placeholder={brandPlaceholder}
-            validate={brandRequired}
             schemaType={brandSchemaType}
           />
       <CustomFieldEnum
@@ -242,7 +241,6 @@ const EditListingDetailsFormComponent = props => (
             options={sizes}
             label={sizeLabel}
             placeholder={sizePlaceholder}
-            validate={sizeRequired}
             schemaType={sizeSchemaType}
           />
           <CustomFieldEnum
