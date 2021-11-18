@@ -63,7 +63,7 @@ export const EditListingPricingFormComponent = props => (
       
       const stockValidator = validators.numberAtLeast(
         intl.formatMessage({ id: 'EditListingPricingForm.stockIsRequired' }),
-        0
+        1
       );
 
       const classes = classNames(css.root, className);

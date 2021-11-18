@@ -101,6 +101,8 @@ const EditListingDetailsFormComponent = props => (
         id: 'EditListingDetailsForm.categoryPlaceholder',
       });
 
+  
+
 
 
       const sizeConfig = findConfigForSelectFilter('size', filterConfig);
