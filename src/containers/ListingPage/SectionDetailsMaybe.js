@@ -28,9 +28,7 @@ const SectionDetailsMaybe = props => {
       return rows.concat({ key, value, label });
 
     }
-    return rows;
-
-    
+    return rows; 
   };
 
 
