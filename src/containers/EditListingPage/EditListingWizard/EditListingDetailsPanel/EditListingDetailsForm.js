@@ -241,6 +241,7 @@ const EditListingDetailsFormComponent = props => (
             name="size"
             options={sizes}
             label={sizeLabel}
+            validate={sizeRequired}
             placeholder={sizePlaceholder}
             schemaType={sizeSchemaType}
           />
