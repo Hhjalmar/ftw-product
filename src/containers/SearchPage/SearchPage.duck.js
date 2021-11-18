@@ -224,7 +224,7 @@ export const loadData = (params, search) => {
 
   // Add minStock filter with default value (1), if stock management is in use.
   // This can be overwriten with passed-in query parameters.
-  const minStockMaybe = isStockInUse(config) ? { minStock: 0 } : {};
+  const minStockMaybe = isStockInUse(config) ? { minStock: 1 } : {};
   const { page = 1, address, origin, ...rest } = queryParams;
   const originMaybe = isOriginInUse(config) && origin ? { origin } : {};
 
