@@ -108,6 +108,7 @@ export const EditListingPricingFormComponent = props => (
             type="number"
             min={0}
             
+            
           />
           {setStockError ? <p className={css.error}>{stockErrorMessage}</p> : null}
 
