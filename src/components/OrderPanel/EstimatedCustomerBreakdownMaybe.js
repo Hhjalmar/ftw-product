@@ -111,7 +111,7 @@ const estimatedCustomerTransaction = (lineItems, bookingStart, bookingEnd) => {
         },
       ],
     },
-    ...bookingMaybe,
+    
   };
 };
 

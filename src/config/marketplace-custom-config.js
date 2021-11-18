@@ -60,8 +60,7 @@ export const filters = [
         { key: 'sculptures', label: 'Sculptures' },
         { key: 'prints', label: 'Prints' },
         { key: 'photography', label: 'Photography' },
-        { key: 'abstract', label: 'Abstract' },
-        { key: 'contemporary', label: 'Contemporary' },
+       
 
         
       ],
