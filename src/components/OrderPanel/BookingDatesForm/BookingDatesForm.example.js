@@ -13,7 +13,7 @@ export const Form = {
     onSubmit: values => {
       console.log('Submit BookingDatesForm with values:', values);
     },
-    price: new Money(1099, 'USD'),
+    price: new Money(1099, 'EUR'),
     fetchLineItemsInProgress: false,
     onFetchTransactionLineItems: () => null,
   },

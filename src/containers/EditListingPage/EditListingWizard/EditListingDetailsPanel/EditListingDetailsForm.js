@@ -101,7 +101,11 @@ const EditListingDetailsFormComponent = props => (
         id: 'EditListingDetailsForm.categoryPlaceholder',
       });
 
-  
+      const categoryRequired = required(
+        intl.formatMessage({
+          id: 'EditListingDetailsForm.categoryRequired',
+        })
+      );
 
 
 
@@ -234,7 +238,6 @@ const EditListingDetailsFormComponent = props => (
             name="brand"
             options={brands}
             label={brandLabel}
-            validate={brandRequired}
             placeholder={brandPlaceholder}
             schemaType={brandSchemaType}
           />
@@ -243,7 +246,6 @@ const EditListingDetailsFormComponent = props => (
             name="size"
             options={sizes}
             label={sizeLabel}
-            validate={sizeRequired}
             placeholder={sizePlaceholder}
             schemaType={sizeSchemaType}
           />
