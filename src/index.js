@@ -17,6 +17,7 @@ import 'core-js/features/map';
 import 'core-js/features/set';
 import 'raf/polyfill';
 
+import Bugsnag from '@bugsnag/js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { loadableReady } from '@loadable/component';
@@ -34,6 +35,11 @@ import * as log from './util/log';
 import { LoggingAnalyticsHandler, GoogleAnalyticsHandler } from './analytics/handlers';
 
 import './styles/marketplaceDefaults.css';
+
+Bugsnag.start({
+  apiKey: '73127232b3e6098a4639f4d1291ca639',
+  plugins: [new BugsnagPluginReact(React)]
+})
 
 const render = (store, shouldHydrate) => {
   // If the server already loaded the auth information, render the app
