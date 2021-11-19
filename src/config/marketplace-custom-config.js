@@ -340,5 +340,5 @@ export const sortConfig = {
 export const listing = {
   // These should be listing details from public data with schema type: enum
   // SectionDetailsMaybe component shows these on listing page.
-  enumFieldDetails: ['size', 'location', 'category'],
+  enumFieldDetails: ['size', 'brand', 'category'],
 };
