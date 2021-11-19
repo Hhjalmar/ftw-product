@@ -233,7 +233,7 @@ export const loadData = (params, search) => {
   const aspectRatio = aspectHeight / aspectWidth;
 
   return searchListings({
-    ...minStockMaybe,
+    
     ...rest,
     ...originMaybe,
     page,
