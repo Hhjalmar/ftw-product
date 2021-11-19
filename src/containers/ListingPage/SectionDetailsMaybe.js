@@ -23,8 +23,6 @@ const SectionDetailsMaybe = props => {
       
 
 
-      
-
       return rows.concat({ key, value, label });
 
     }

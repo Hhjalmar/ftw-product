@@ -106,6 +106,8 @@ export const EditListingPricingFormComponent = props => (
             label={intl.formatMessage({ id: 'EditListingPricingForm.stockLabel' })}
             placeholder={intl.formatMessage({ id: 'EditListingPricingForm.stockPlaceholder' })}
             type="number"
+            min={0}
+            validate={stockValidator}
 
 
             
