@@ -69,15 +69,15 @@ const OrderPanel = props => {
     author,
     onManageDisableScrolling,
     timeSlots,
-    fetchTimeSlotsError,
+    TimeSlotsError,
     history,
     location,
     intl,
-    onFetchTransactionLineItems,
+    onTransactionLineItems,
     onContactUser,
     lineItems,
-    fetchLineItemsInProgress,
-    fetchLineItemsError,
+    LineItemsInProgress,
+    LineItemsError,
   } = props;
 
   const isNightly = unitType === LINE_ITEM_NIGHT;
@@ -155,11 +155,11 @@ const OrderPanel = props => {
             listingId={listing.id}
             isOwnListing={isOwnListing}
             timeSlots={timeSlots}
-            fetchTimeSlotsError={fetchTimeSlotsError}
-            onFetchTransactionLineItems={onFetchTransactionLineItems}
+            TimeSlotsError={TimeSlotsError}
+            onTransactionLineItems={onTransactionLineItems}
             lineItems={lineItems}
-            fetchLineItemsInProgress={fetchLineItemsInProgress}
-            fetchLineItemsError={fetchLineItemsError}
+            LineItemsInProgress={LineItemsInProgress}
+            LineItemsError={LineItemsError}
           />
         ) : showProductOrderForm ? (
           <ProductOrderForm
@@ -171,11 +171,11 @@ const OrderPanel = props => {
             shippingEnabled={shippingEnabled}
             listingId={listing.id}
             isOwnListing={isOwnListing}
-            onFetchTransactionLineItems={onFetchTransactionLineItems}
+            onTransactionLineItems={onTransactionLineItems}
             onContactUser={onContactUser}
             lineItems={lineItems}
-            fetchLineItemsInProgress={fetchLineItemsInProgress}
-            fetchLineItemsError={fetchLineItemsError}
+            LineItemsInProgress={LineItemsInProgress}
+            LineItemsError={LineItemsError}
           />
         ) : null}
       </ModalInMobile>
@@ -219,9 +219,9 @@ OrderPanel.defaultProps = {
   subTitle: null,
   unitType: config.lineItemUnitType,
   timeSlots: null,
-  fetchTimeSlotsError: null,
+  TimeSlotsError: null,
   lineItems: null,
-  fetchLineItemsError: null,
+  LineItemsError: null,
 };
 
 OrderPanel.propTypes = {
@@ -236,12 +236,12 @@ OrderPanel.propTypes = {
   subTitle: oneOfType([node, string]),
   onManageDisableScrolling: func.isRequired,
   timeSlots: arrayOf(propTypes.timeSlot),
-  fetchTimeSlotsError: propTypes.error,
-  onFetchTransactionLineItems: func.isRequired,
+  TimeSlotsError: propTypes.error,
+  onTransactionLineItems: func.isRequired,
   onContactUser: func,
   lineItems: array,
-  fetchLineItemsInProgress: bool.isRequired,
-  fetchLineItemsError: propTypes.error,
+  LineItemsInProgress: bool.isRequired,
+  LineItemsError: propTypes.error,
 
   // from withRouter
   history: shape({
