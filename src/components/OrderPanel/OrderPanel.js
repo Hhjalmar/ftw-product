@@ -237,7 +237,7 @@ OrderPanel.propTypes = {
   onManageDisableScrolling: func.isRequired,
   timeSlots: arrayOf(propTypes.timeSlot),
   fetchTimeSlotsError: propTypes.error,
-  onfetchTransactionLineItems: func.isRequired,
+  onFetchTransactionLineItems: func.isRequired,
   onContactUser: func,
   lineItems: array,
   fetchLineItemsInProgress: bool.isRequired,
