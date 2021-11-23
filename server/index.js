@@ -44,7 +44,7 @@ const csp = require('./csp');
 const sdkUtils = require('./api-util/sdk');
 
 const buildPath = path.resolve(__dirname, '..', 'build');
-const env = process.env.REACT_APP_ENV === 'productopm';
+const env = process.env.REACT_APP_ENV === 'production';
 const dev = process.env.REACT_APP_ENV === 'development';
 const PORT = parseInt(process.env.PORT, 10);
 const CLIENT_ID = process.env.REACT_APP_SHARETRIBE_SDK_CLIENT_ID;
