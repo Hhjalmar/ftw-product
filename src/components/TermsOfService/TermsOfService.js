@@ -32,6 +32,11 @@ const TermsOfService = props => {
       The service provider has the right to remove any users from Himassa and terminate their right of use of the service without any specific reason and without being liable for compensation.
       </p>
 
+      <h2>Payments</h2>
+      <p>
+      Himassa does not support payments outside the platform. Asking a buyer to pay via banktransfer or other means will immediately result to a ban. This will result you losing all your listings and you won't be able to access your account anymore.
+      </p>
+
       <h2>Applicable Jurisdiction</h2>
       <p>
       The jurisdiction that is applicable in this service and these terms of use is that of Finland, unless something else is required by binding law.
