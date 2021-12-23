@@ -203,7 +203,7 @@ const ProductOrderForm = props => {
   // Should not happen for listings that go through EditListingWizard.
   // However, this might happen for imported listings.
   if (!pickupEnabled && !shippingEnabled) {
-    <p className={css.error}>
+    return <p className={css.error}>
       <FormattedMessage id="ProductOrderForm.noDeliveryMethodSet" />
     </p>;
   }
