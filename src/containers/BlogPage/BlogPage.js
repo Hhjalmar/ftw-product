@@ -26,7 +26,7 @@ const BlogPage = () => {
           <h1>BLOG</h1>
 
           <div>
-          <h3>Here we will feature blog posts.</h3>
+          <h3>Famous Nordic artists.</h3>
 
             <p></p>
           
