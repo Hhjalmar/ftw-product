@@ -393,9 +393,9 @@
   --marketplaceButtonFontStyles: {
     font-family: 'poppins', Helvetica, Arial, sans-serif;
     font-weight: var(--fontWeightSemiBold);
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
 
     @media (--viewportMedium) {
       /* TODO: Make sure button text aligns with the baseline */

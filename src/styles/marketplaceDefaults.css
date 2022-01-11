@@ -35,7 +35,7 @@
   --bannedColorDark: var(--marketplaceColor);
 
   --matterColorDark: #000000;
-  --matterColor: #050505;
+  --matterColor: #000000;
   --matterColorAnti: #b2b2b2;
   --matterColorNegative: #e7e7e7;
   --matterColorBright: #fcfcfc;
@@ -46,10 +46,10 @@
   /* ================ Font ================ */
   --fontFamily: 'poppins', Helvetica, Arial, sans-serif;
 
-  --fontWeightRegular: 400;
+  --fontWeightRegular: 500;
   --fontWeightMedium: 500;
   --fontWeightSemiBold: 600;
-  --fontWeightBold: 700;
+  --fontWeightBold: 900;
 
   --fontWeightHighlightEmail: var(--fontWeightBold);
 
@@ -76,7 +76,7 @@
   /* ================ Z-index base levels ================ */
 
   /* topbar is positioned slightly above content */
-  --zIndexTopbar: 10;
+  --zIndexTopbar: 40;
   /* small popups on UI should use z-indexes above 50 */
   --zIndexPopup: 50;
   /* modals and UI overlays should use z-indexes above 100 */
@@ -96,7 +96,7 @@
 
   /* ================ Topbar related ================ */
 
-  --topbarHeight: 60px;
+  --topbarHeight: 40px;
   --topbarHeightDesktop: 72px;
 
   --TopbarMobileMenu_topMargin: 96px;
