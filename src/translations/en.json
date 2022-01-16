@@ -254,7 +254,7 @@
   "EditListingPricingPanel.createListingTitle": "Pricing & Stock",
   "EditListingPricingPanel.listingPriceCurrencyInvalid": "The listing currency is different from the marketplace currency. You cannot edit the price.",
   "EditListingPricingPanel.title": "Pricing & Stock of {listingTitle}",
-  "EditListingWizard.payoutModalInfo": "Almost done! In order to send you money, we need to know a bit more about you. Next, we will guide you through verifying your account. The details can also be edited from the Account Settings page on the Payout details tab. ",
+  "EditListingWizard.payoutModalInfo": "Almost done! In order to send you money, we need to know a bit more about you. Next, we will guide you through verifying your account. The details can also be edited from the Account Settings page on the Payout details tab -  Don't worry, all your info will be safe with us. ",
   "EditListingWizard.payoutModalTitleOneMoreThing": "One more thing:",
   "EditListingWizard.payoutModalTitlePayoutPreferences": "Payout preferences",
   "EditListingWizard.redirectingToStripe": "You returned early from Stripe. Redirecting you back to Stripe…",
