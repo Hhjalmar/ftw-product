@@ -30,7 +30,7 @@ const FAQPage = () => {
             <p>After signing up and verifying your account through the email we send you, fill in your profile information using a photo and add in your payment details, after this you can start selling.</p>
           
             <h3>What are your fees?</h3>
-            <p>We charge 16% on purchases, to start selling with us is free!</p>
+            <p>We charge 11% on purchases, to start selling with us is free!</p>
 
             <h3>How does the shipping work?</h3>
             <p>The seller is responsbile on the shipping. We make sure that the items are received by the buyer, you can also follow the shipment in real time through the tracking number that the seller provides.</p>

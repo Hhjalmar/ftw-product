@@ -40,7 +40,7 @@ const FAQPage = loadable(() =>import( /* webpackChunkName: "FAQPage" */ '../cont
 const HelpPage = loadable(() =>import( /* webpackChunkName: "HelpPage" */ '../containers/HelpPage/HelpPage'));
 const BlogPage = loadable(() =>import( /* webpackChunkName: "BlogPage" */ '../containers/BlogPage/BlogPage'));
 const ClothingPage = loadable(() =>import( /* webpackChunkName: "ClothingPage" */ '../containers/ClothingPage/ClothingPage'));
-
+const HowItWorksPage = loadable(() =>import( /* webpackChunkName: "HowItWorksPage" */ '../containers/HowItWorksPage/HowItWorksPage'));
 
 
 
@@ -98,6 +98,11 @@ const routeConfiguration = () => {
       path: '/blog',
       name: 'BlogPage',
       component: BlogPage,
+    },
+    {
+      path: '/howitworks',
+      name: 'HowItWorksPage',
+      component: HowItWorksPage,
     },
     {
       path: '/clothing',
