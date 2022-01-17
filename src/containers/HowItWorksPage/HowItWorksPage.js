@@ -33,7 +33,7 @@ const HowItWorksPage = () => {
             <h1>Basics as Seller</h1>
 
             <h3>No commitment</h3>
-            <p>By creating an account with us, you do not commmit to anything. Delete your account and listings anytime you want if you feel like it.</p>
+            <p>By creating an account with us, you do not commit to anything. Delete your account and listings anytime you want if you feel like it.</p>
           
 
             <h3>You are in Charge</h3>
