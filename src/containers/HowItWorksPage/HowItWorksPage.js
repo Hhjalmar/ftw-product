@@ -46,7 +46,7 @@ const HowItWorksPage = () => {
             <p>When someone buys your items, you are expected to send the item with tracking code via postage. Make sure you send this code to buyer after shipping.</p>
           
             <h3>No weird fees, no nonsense</h3>
-            <p>When charge only 11% on sold work, no other fees exist and ever will exist.</p>
+            <p>We charge only 11% on sold work, no other fees exist and ever will exist.</p>
           
 
             <h1>Basics as Buyer</h1>
