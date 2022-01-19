@@ -53,7 +53,7 @@ const HowItWorksPage = () => {
 
 
             <h3>Keep it the chat</h3>
-            <p>When purchasing an item, keep all the commmunication in the chat provided by us. This way we can help you if any problemms arise.</p>
+            <p>When purchasing an item, keep all the communication in the chat provided by us. This way we can help you if any problems arise.</p>
 
 
             <h3>Ask for tracking</h3>
