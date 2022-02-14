@@ -297,7 +297,6 @@ export const sendEnquiry = (listingId, message) => (dispatch, getState, sdk) => 
 };
 
 export const fetchTransactionLineItems = ({ orderData, listingId, isOwnListing }) => dispatch => {
-   if (typeof window === 'undefined')
   {
       return;
   }
