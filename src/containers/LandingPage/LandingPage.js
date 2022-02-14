@@ -24,6 +24,7 @@ import twitterImage from '../../assets/Himassa.facebook..png';
 import SectionHero from './SectionHero/SectionHero';
 import SectionHowItWorks from './SectionHowItWorks/SectionHowItWorks';
 import SectionFilteredSearches from './SectionFilteredSearches/SectionFilteredSearches';
+import SectionNew from './SectionNew/SectionNew';
 import css from './LandingPage.module.css';
 
 export const LandingPageComponent = props => {
@@ -78,6 +79,11 @@ export const LandingPageComponent = props => {
             <li className={css.section}>
               <div className={css.sectionContent}>
                 <SectionHowItWorks />
+              </div>
+            </li>
+            <li className={css.section}>
+              <div className={css.sectionContent}>
+                <SectionNew />
               </div>
             </li>
           </ul>
