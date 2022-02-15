@@ -25,6 +25,7 @@ import SectionHero from './SectionHero/SectionHero';
 import SectionHowItWorks from './SectionHowItWorks/SectionHowItWorks';
 import SectionFilteredSearches from './SectionFilteredSearches/SectionFilteredSearches';
 import SectionNew from './SectionNew/SectionNew';
+import SectionFeatured from './SectionFeatured/SectionFeatured';
 import css from './LandingPage.module.css';
 
 export const LandingPageComponent = props => {
@@ -84,6 +85,11 @@ export const LandingPageComponent = props => {
             <li className={css.section}>
               <div className={css.sectionContent}>
                 <SectionNew />
+              </div>
+            </li>
+            <li className={css.section}>
+              <div className={css.sectionContent}>
+                <SectionFeatured />
               </div>
             </li>
           </ul>
