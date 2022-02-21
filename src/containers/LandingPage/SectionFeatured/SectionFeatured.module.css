@@ -30,7 +30,7 @@
 .root {
   /* Gradient direction and overlaying the black color on top of the image for better readability */
   background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url('../../../assets/61eda74c-18f2-42fe-a968-e1ec81f6e517.jpeg');
+    url('../../../assets/61adcaac-02b0-4f55-99e6-8ff2ab5de567.jpeg');
   background-color: var(--matterColor);
   background-size: cover;
   background-position: center center;
