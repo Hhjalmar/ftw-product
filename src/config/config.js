@@ -133,7 +133,7 @@ const siteTitle = 'Himassa Kauppa';
 const siteTwitterHandle = '@Himassa_kauppa';
 
 // Instagram page is used in SEO schema (http://schema.org/Organization)
-const siteInstagramPage = 'https://www.instagram.com/himassa_kauppa/';
+const siteInstagramPage = 'https://www.instagram.com/himassa_store/';
 
 // Facebook page is used in SEO schema (http://schema.org/Organization)
 const siteFacebookPage = 'https://www.facebook.com/himassa.kauppa/';
