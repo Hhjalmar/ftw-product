@@ -19,9 +19,9 @@ const SectionFeatured = props => {
           <FormattedMessage id="Artist of the week" />
         </h1>
         <h2 className={css.heroSubTitle}>
-          <FormattedMessage id="Meet Annette Schmucker" />
+          <FormattedMessage id="Meet Jenna Myllykoski" />
         </h2>
-        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '618a30d5-87b9-49d8-b0ec-878299f7205c' }} >
+        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '620b9c97-a4bb-48e3-8e79-ebfef80a6cc5' }} >
           <FormattedMessage id="View" />
         </NamedLink>
       </div>
