@@ -159,7 +159,7 @@ Currently based in Berlin and New York, Danish-born Nina Beier drills down to th
 
 
 
-<p>Elmgreen and Dragset's work is available on Artspace here.</p>
+
  
 
 <p>Subversive wit and humor pervade the Scandinavian art duo Michael Elmgreen and Ingar Dragset's large-scale installations and public sculptures. Since 1994, when they met by chance at a Copenhagen bar, Elmgreen and Dragset have created collaborative work that evokes a distinct, dark humor while shedding light on serious social and cultural concerns. They're perhaps best known for the permanent installation Prada Marfa (2005), which they describe as a "pop architectural land art project," involving an installed a replica of a Prada boutique along a remote stretch of highway in Texas. </p>
