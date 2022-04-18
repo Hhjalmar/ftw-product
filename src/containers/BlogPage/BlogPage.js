@@ -26,144 +26,168 @@ const BlogPage = () => {
           <h1>BLOG</h1>
 
           <div>
-          <h3>Famous Nordic artists. 16.03.2022</h3>
+          <h3>Why beautiful things make us happy</h3>
 
-            <p>
+            <p>A lot of things can be beautiful.
 
-With picturesque coastal landscapes, ubiquitous green energy, socially progressive policy, smart minimalist design, and ample government spending on the the arts, it's not surprising that artists thrive in the Nordic countries of Denmark, Finland, Sweden, Norway, and Iceland. We've put together a list of 10 Nordic artists you need to know.</p>
+Landscapes, faces, fine art, or epic architecture; stars in the sky.
 
- 
+Or simply the reflection of the sun on an empty bottle.
 
- 
+Beauty is nothing tangible, it only exists in our heads as a pleasant feeling.
 
-<p>Bjarne Melgaard</p>
+If we have to define it, we perceive something as beautiful if its color, shape, form, or proportion
 
+somehow are appealing or delightful to us.
 
+Beauty is a very human experience that's been with us for millions of years.
 
+Even our first tools were trimmed to a symmetrical shape.
 
+Researchers have tried to find practical reasons why our ancestors invested the time to make their tools look nice, but couldn't really identify any.
 
- 
+It seems that early humans shaped their tools into teardrops, simply because they liked them better that way.
 
-<p>Widely touted as Norway's most important artist since Edvard Munch, Bjarne Melgaard became notorious in the late '90s for controversial installations that referenced S&M and heavy metal music. While explicitly sexual and violent subcultures thematically dominated his early work, he has since become best known for his loose, humorous, and colorful expressive painting—though his installations still contain overt sex and drug references, and his paintings often have something sketchy going on if you look closely. Melgaard considers his exhibition sites as ripe for both aesthetic and fundamental interpretation, changing not only the wallpaper, but turning them into white tiger playpens or environments for sleeping, for instance.</p>
+Throughout our history, the definition of beauty has changed a lot.
 
- 
+Ideals have shifted or turned into their opposites.
 
- 
+But beyond individual and contemporary tastes some things have never really gone out of fashion.
 
-<p>Nina Beier</p>
+The golden ratio, symmetry, or fractal patterns can be found in the art and architecture of cultures from our beginnings, to today.
 
+Humans seem to be in mysterious, inherent agreement about the beauty of certain things.
 
+The patterns that keep coming up are all rooted in nature.
 
-<p>
+They became part of our biology because they helped our ancestors survive.
 
- 
+Fractal patterns for example, occur all over nature.
 
-Currently based in Berlin and New York, Danish-born Nina Beier drills down to the socio-historical implications of objects which she re-contextualizes in unlikely settings. Oversized wine glasses contain materialized stock images permanently fixed in resin, wigs, and ties bought on Ebay are presented as images when they become sandwiched in frames, and car head rests in leather protrude from granite monoliths in her unexpected installations.</p>
+In snail shells, flower heads; waves or clouds
 
+Identifying and assessing these things and phenomena correctly used to be vital.
 
+Do those clouds mean rain will come soon? Are these waters safe to swim through? Can I eat this?
 
- 
+Another pervasive thing is symmetry.
 
-<p>Jonas Lund</p>
+In nature it means everything is as it should be
 
+Stems and trees and leaves and blossoms all grow symmetrically
 
+A deer with impressive antlers is probably a source of nutritious meat.
 
+A deformed wheat hair may not be safe to eat.
 
- 
+A symmetrical face is more likely to belong to a healthy and fertile mating partner.
 
-<p>The art-as-commodity complex is never more apparent than in Jonas Lund's conceptual artworks. The Swedish artist explores notions of authorship and ownership, art production chains, market trends, and art flipping. In his project Flip City at Steve Turner Contemporary, Lund installed GPS tracking devices in 40 paintings and tracked their whereabouts, providing a visualization for the hotly debated investment practice in which young artist's work is bought low, manipulated, and sold high in the secondary market for a large profit unseen by the artist.</p>
+Because symmetry is so common in fauna and flora, it's extremely familiar to our brain.
 
- 
+It helped our ancestors evaluate their environment more easily, and react quickly to danger.
 
- 
+Things that helped us survive activate the reward center in our brain.
 
-<p>Ida Ekblad</p>
+recognising signals of safety and nutrition, triggered nice feelings in us.
 
+So our sense of beauty probably evolved from pattern recognition, but it goes way beyond that now.
 
+Humans seem to have evolved an instinct for beauty that is deeply hardwired into us.
 
+It remain even after other processes in our brain stop working.
 
- 
+Alzheimer's patients were asked to rank the beauty of several paintings
 
-<p>Up-and-coming painter Ida Ekblad is Norway's fastest rising young star. Her expressionist paintings are inspired by a wide variety of art historical references, from Situationism and Abstract Expressionism to graffiti and cartoon, and her found-object sculptures assembled from urban detritus feel more playful and light than their material constituents. </p>
+Then the experiment was repeated two weeks later
 
- 
+The patients have long since forgotten the paintings, but still ranked the beauty of the paintings in the same order.
 
- 
+One could argue that this doesn't say much. So what if people stick to their personal preferences?
 
-<p>Tal R</p>
+But other research has shown that we have a sort of lowest common denominator when it comes to beauty.
 
+In different experiments, people were asked to distinguish real from fake abstract paintings.
 
+Some were originals by Mondrian and Pollock that were painted based on strict rules like fractal patterns, while the imitations were not.
 
+The majority picked out the original artworks.
 
- 
+This worked for paintings from both artists, even though their arts are very different.
 
-<p>Tal R was born in Tel Aviv to a Danish mother and Czechoslovakian Jewish father and Holocaust survivor, though he and his family moved to Denmark when the artist was only a year old. The artist's split identity and self-described outsider status guided the young artist toward drawing as a means of escape. (His traditional Hebrew name also means "number" in Danish—often landing the artist on the butt end of childish jokes.) Now, the artist's painting, sculpture, collage, and installation reflect a celebratory but also sinister perspective. Using unconventional drawing materials like pigment crayons and rabbit-skin glue, Tal R paints fauvist colors and naïve forms reminiscent of fin de siècle Europe and the CoBrA avant-garde movement of the late 1940s.</p> 
+Another experiment also used abstract artworks but, asked people to pick them out among similar paintings made either by children or animals.
 
- 
+Again, the test subjects pointed out the legit paintings whose patterns were carefully planned and not random
 
- 
+So while we have a hard time pinning down what beauty is or what it's based on, we somehow recognize it when we see it
 
-<p>Tom of Finland</p>
+Humans don't navigate nature trying to survive day by day anymore
 
+We left the natural world behind and created our own.
 
+We made the objects that surround us the things we wear and use and look at.
 
+As we spread over the planet and our numbers grew, we shaped a completely man-made environment.
 
- 
+In the process of doing so, we often neglected beauty in favor of functionality cost or efficiency.
 
-<p>Beginning in the 1940s, Tom of Finland drew thousands of liberating images that depicted masculine, muscled men engrossed in acts of homoertoic desire, unapologetically appropriating some of homophobic straight culture's most virile and macho archetypes. Sailors, bikers, cops, lumberjacks, and cowboys are recast as confident enthusiasts of gay sex. These innovating portrayals of the male body, which circulated underground for years before gaining recognition in the art world, have become not only heralded for their deft skill and imagination, but credited with originating empowering queer iconography.</p>
+We built rows and rows of concrete housing blocks that nobody wants to live in.
 
- 
+We have ugly underground subway stations, shabby public service buildings, and sprawling malls.
 
- 
+One bland, standardized box beside the next.
 
-<p>Hanna Liden</p>
+Humans, don't like monotony.
 
+Eye tracking software has shown that people keep focusing on details and ornaments of architecture while brushing quickly over blank walls
 
+And not only are they no fun to look at, they actually make us miserable.
 
+Experiments with skin sensors showed that looking at vast, dull facades makes us feel bored and uncomfortable.
 
- 
+This kind of boredom has been linked to raised heart rates and stress levels and the opposite seems to be true, too.
 
-<p>The darkly compelling photographs of Swedish-born artist Hanna Liden seem ritualistic, evoking the pagan ceremonies and witchcraft magic aestheticized by Scandinavian horror movies. Liden first arrived on the scene around 2005 with photographs of masked teenagers rambling through rural landscapes. Her more recent images illustrate the artist's daily consumption, representing common objects like black plastic bags from liquor stores, free matchbooks from bodegas, and bags of trash—ubiquitous in the New York City landscape the artist now inhabits.</p>
+Over the last decades more and more studies have found that surroundings that are actually aesthetically pleasing to us can improve our well-being, our behavior,
 
- 
+cognitive function, and mood.
 
- 
+Our bodies and brains react measurably and visibly to everything that surrounds us
 
-<p>Olafur Elíasson</p>
+Beauty in particular has such a strong impact on our well-being that making useful things beautiful can actually make them better.
 
+In 2017, a hospital examined recovery factors through observation and interviews with patients and found that visual art in their lounge areas
 
+made them more comfortable and happier about their stay in general.
 
+Another study looked at how well patients recovered in a hospital that had two wards.
 
- 
+A very old and rather ugly one, and a newly renovated ward.
 
-<p>Waterfalls appearing to fall out of the sky, bright green urban rivers, and setting indoor suns describe a few of the sublime artworks by Danish-Icelandic artist Olafur Elíasson that stop unsuspecting passers-by in their tracks. The artist is known for his sensational civic artworks that make the public renegotiate their relationship with their surroundings, and also for his intricate artist investigations of natural phenomena and human perception. With a large studio of roughly 80 employees, Elíasson is interested in the interplay between light, architectural space, and vision, leading to collaborative research and experimentation with various technicians, craftsmen, scientists, and designers for each of his projects. </p>
+To the researchers' surprise, the patients that stayed in the new, renovated environment, needed less pain medication
 
- 
+and were released on average, two days earlier than patients recovering in the old ward.
 
- 
+More beautiful surroundings made them feel better, physically.
 
-<p>Per Kirkeby</p>
+Beauty also has an effect on us on a daily basis.
 
+It can improve our general happiness.
 
+A study that looked at the main factors influencing the happiness of adults revealed an unexpected result.
 
+Besides things like good health in a harmonious family life, individual happiness is affected by how beautiful you find the city you live in.
 
- 
+Beauty scored even higher than cleanliness or safety.
 
-<p>Formally trained as a geologist, Danish artist Per Kirkeby is best known for his drawings, prints, and oil paintings that mimic ecological forms. The artist has created an abstract lexicon by rendering environmental processes, using natural phenomena like the Earth's landscape or biological life as his inspiration. Regularly visiting uninhabited regions of Northern Europe, the arctic, Central America, and Australia, Kirkeby reinforces his connection to the wilderness.</p>
+So what can we learn from all of this?
 
- 
+We know that we humans have been fine-tuned for millions of years to process visual input and assess our surroundings.
 
- 
+It's just what we're programmed to do and we're starting to learn more about how much beauty as a property is really influencing us.
 
-<p>Elmgreen & Dragset</p>
+Beauty meets an inherent need for meaningful information.
 
-
-
-
- 
-
-<p>Subversive wit and humor pervade the Scandinavian art duo Michael Elmgreen and Ingar Dragset's large-scale installations and public sculptures. Since 1994, when they met by chance at a Copenhagen bar, Elmgreen and Dragset have created collaborative work that evokes a distinct, dark humor while shedding light on serious social and cultural concerns. They're perhaps best known for the permanent installation Prada Marfa (2005), which they describe as a "pop architectural land art project," involving an installed a replica of a Prada boutique along a remote stretch of highway in Texas. </p>
-          
+Maybe it would be worth giving it more space in this man-made world we have created.</p>
+        
 
            
           </div>
