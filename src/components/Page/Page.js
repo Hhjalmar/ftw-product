@@ -12,8 +12,8 @@ import { canonicalRoutePath } from '../../util/routes';
 
 import { CookieConsent } from '../../components';
 
-import facebookImage from '../../assets/Himassa.facebook..png';
-import twitterImage from '../../assets/Himassa.facebook..png';
+import facebookImage from '../../assets/il_1588xN.3626951821_hmi1 copy.JPG';
+import twitterImage from '../../assets/il_1588xN.3626951821_hmi1 copy.JPG';
 import css from './Page.module.css';
 
 const preventDefault = e => {

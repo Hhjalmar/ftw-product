@@ -127,7 +127,7 @@ const streetAddress = 'Kapteeninkatu 5';
 const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
 
 // Site title is needed in meta tags (bots and social media sharing reads those)
-const siteTitle = 'Himassa Kauppa';
+const siteTitle = 'Himassa Store - made in 🇫🇮 with love';
 
 // Twitter handle is needed in meta tags (twitter:site). Start it with '@' character
 const siteTwitterHandle = '@Himassa_kauppa';
