@@ -434,7 +434,7 @@
   "LoginForm.passwordLabel": "Password",
   "LoginForm.passwordPlaceholder": "Enter your password…",
   "LoginForm.passwordRequired": "This field is required",
-  "MainPanelHeader.foundResults": "{count, number} {count, plural, one {result} other {results}}",
+  "MainPanelHeader.foundResults": "14940",
   "MainPanelHeader.loadingResults": "Loading search results…",
   "MainPanelHeader.sortBy": "Sort by:",
   "ManageListingCard.actionFailed": "Whoops, something went wrong. Please refresh the page and try again.",
