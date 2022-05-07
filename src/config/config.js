@@ -111,8 +111,8 @@ const listing = {
   showUnitTypeTranslations: false,
 
   // These aspectWidth and aspectHeight values are used to calculate aspect ratio.
-  aspectWidth: 400,
-  aspectHeight: 400,
+  aspectWidth: 500,
+  aspectHeight: 600,
   // Listings have custom image variants, which are named here.
   variantPrefix: 'listing-card',
 };
