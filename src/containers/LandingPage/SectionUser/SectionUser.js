@@ -19,9 +19,9 @@ const SectionUser = props => {
           <FormattedMessage id="User of the week" />
         </h1>
         <h2 className={css.heroSubTitle}>
-          <FormattedMessage id="Meet Tessa Ojala" />
+          <FormattedMessage id="Meet Juha Lahtinen" />
         </h2>
-        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '618a30d5-17c2-4def-8526-01561e7f346e' }} >
+        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '6283811e-b4a6-4cf8-babf-2e457396db51' }} >
           <FormattedMessage id="View" />
         </NamedLink>
       </div>
