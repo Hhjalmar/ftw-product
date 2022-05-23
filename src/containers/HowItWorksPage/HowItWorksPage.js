@@ -9,7 +9,7 @@ import {
 
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
-import image from './image.1.png';
+import image from './Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of THE CURSED PHARAO.png';
 
 import css from './HowItWorksPage.module.css';
 
@@ -27,7 +27,7 @@ const HowItWorksPage = () => {
 
           
 
-          <img className={css.coverImage} src={image} alt="image.1.png" />
+          <img className={css.coverImage} src={image} alt="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of THE CURSED PHARAO.png" />
           <div>
           
             <h1>Basics as Seller</h1>
@@ -42,8 +42,8 @@ const HowItWorksPage = () => {
             <h3>Keep it in the chat</h3>
             <p>Keep it all in the chat and don't accept requests to phone or email the buyer. We will and can only help you if you keep the communication with the buyer in the chat.</p>
           
-            <h3>Sell, track it</h3>
-            <p>When someone buys your items, you are expected to send the item with tracking code via postage. Make sure you send this code to buyer after shipping.</p>
+            <h3>Sell, track it, and we got you</h3>
+            <p>When someone buys your items, you are expected to send the item with tracking code via postage. Make sure you send this code to buyer after shipping.Doing this we can help you if something happens.</p>
           
             <h3>No weird fees, no nonsense</h3>
             <p>We charge only 11% on sold work, no other fees exist and ever will exist.</p>
@@ -51,13 +51,17 @@ const HowItWorksPage = () => {
 
             <h1>Basics as Buyer</h1>
 
+            <h3>Buy beautiful original items</h3>
+            <p>Purchase everything from rugs to paintings from our community.</p>
+
+
 
             <h3>Keep it the chat</h3>
             <p>When purchasing an item, keep all the communication in the chat provided by us. This way we can help you if any problems arise.</p>
 
 
-            <h3>Ask for tracking</h3>
-            <p>Sellers are obliged to provide tracking info to you. If a buyer fails to provide this, reach out to us at hello(at)himassa.com</p>
+            <h3>We got you covered</h3>
+            <p>We make sure you get your items in time and your money back if something happens or the item isn't as described. If you have any issues at all, reach out to us at hello(at)himassa.com</p>
 
           </div>
         </LayoutWrapperMain>

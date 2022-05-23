@@ -14,7 +14,7 @@ import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 
 import css from './AboutPage.module.css';
-import image from './ryan-stefan-5K98ScREEUY-unsplash.jpeg';
+import image from './Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of THE CURSED PHARAO.png';
 
 const AboutPage = () => {
   const { siteTwitterHandle, siteFacebookPage } = config;
@@ -27,7 +27,7 @@ const AboutPage = () => {
       schema={{
         '@context': 'http://schema.org',
         '@type': 'AboutPage',
-        description: 'About Sneakertime',
+        description: 'About Himassa',
         name: 'About page',
       }}
     >
@@ -42,7 +42,7 @@ const AboutPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>"We've built Himassa because we wanted to connect designers and artists directy to you."</p>
+              <p>"We've built Himassa because we wanted to connect designers, crafters and artists directy to you."</p>
             </div>
 
             <div className={css.contentMain}>
@@ -64,7 +64,7 @@ const AboutPage = () => {
                 
               </h3>
               <p>
-                Himassa is brought to you by the good folks at{' '}
+                Himassa is brought to you by the design lovers at{' '}
                 <ExternalLink href="https://www.himassa.com">Vilmari Technologies</ExternalLink>. 
               </p>
               <p>
