@@ -30,7 +30,7 @@
 .root {
   /* Gradient direction and overlaying the black color on top of the image for better readability */
   background: linear-gradient(-45deg, rgba(252, 152, 239, 0), rgba(255, 255, 255, 0)),
-    url('../../../assets/Screenshot 2022-05-17 at 17.22.32.png');
+    url('../../../assets/Screenshot 2022-05-23 at 8.47.12.png');
   background-color: var(--whiterColor);
   background-size: cover;
   background-position: center center;
@@ -83,7 +83,7 @@
   @apply --marketplaceH4FontStyles;
 
   color: var(--matterColorLight);
-  margin: 0 0 32px 0;
+  margin: 0 0 39px 0;
 
   composes: animation;
   animation-delay: 0.65s;
