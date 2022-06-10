@@ -13,7 +13,7 @@ import css from './SectionFilteredSearches.module.css';
 // If those images have been saved with the same name, no need to make changes to these imports.
 import imageForFilter1 from './images/IMG_0494 (1).jpeg';
 import imageForFilter2 from './images/Screenshot 2022-06-10 at 14.46.14.png';
-import imageForFilter3 from './images/Egw5InDXgAUAof1.jpeg';
+import imageForFilter3 from './images/IMG_2386.jpg';
 
 // Thumbnail image for the search "card"
 class ThumbnailImage extends Component {
@@ -73,7 +73,7 @@ const SectionFilteredSearches = props => {
         <FilterLink
           name="Rugs"
           image={imageForFilter2}
-          link="http://localhost:3000/s?pub_category=rugs"
+          link="http://localhost:3000/s?pub_category=decor"
         />
         <FilterLink
           name="Furniture"
