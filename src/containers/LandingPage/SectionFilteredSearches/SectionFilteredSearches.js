@@ -68,12 +68,12 @@ const SectionFilteredSearches = props => {
         <FilterLink
           name="Art"
           image={imageForFilter1}
-          link="http://localhost:3000/s?pub_category=art"
+          link="http://localhost:3000/s"
         />
         <FilterLink
           name="Rugs"
           image={imageForFilter2}
-          link="http://localhost:3000/s?pub_category=decor"
+          link="http://localhost:3000/s?pub_category=rugs"
         />
         <FilterLink
           name="Furniture"
