@@ -21,7 +21,7 @@ const SectionUser = props => {
         <h2 className={css.heroSubTitle}>
           <FormattedMessage id= "Limestone" />
         </h2>
-        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '618a30d5-e9be-4e02-b27f-3d2af2d210a1'}} >
+        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '627b3787-4084-43c8-af21-e119e4bc72dc'}} >
           <FormattedMessage id="View" />
         </NamedLink>
       </div>
