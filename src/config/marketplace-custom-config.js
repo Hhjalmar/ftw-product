@@ -94,7 +94,7 @@ export const filters = [
     label: 'Decor',
     type: 'SelectSingleFilter',
     group: 'primary',
-    queryParamNames: ['pub_category'],
+    queryParamNames: ['pub_decor'],
     config: {
       // Schema type is enum for SelectSingleFilter
       schemaType: 'enum',
@@ -142,7 +142,7 @@ export const filters = [
     label: 'Jewellery',
     type: 'SelectSingleFilter',
     group: 'primary',
-    queryParamNames: ['pub_category'],
+    queryParamNames: ['pub_jewellery'],
     config: {
       // Schema type is enum for SelectSingleFilter
       schemaType: 'enum',
@@ -167,7 +167,7 @@ export const filters = [
     label: 'Fashion',
     type: 'SelectSingleFilter',
     group: 'primary',
-    queryParamNames: ['pub_category'],
+    queryParamNames: ['pub_fashion'],
     config: {
       // Schema type is enum for SelectSingleFilter
       schemaType: 'enum',
