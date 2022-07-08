@@ -84,7 +84,7 @@ export const filters = [
 
         { key: 'chandeliers', label: 'Chandeliers & Pedants' },
         { key: 'tablelamps', label: 'Table Lamps' },
-        { key: 'wallighting', label: 'Wall Lighting' },
+        { key: 'walllighting', label: 'Wall Lighting' },
         { key: 'floorlamp', label: 'Floor Lamps' },
       ],
     },
@@ -120,7 +120,7 @@ export const filters = [
     label: 'Furniture',
     type: 'SelectSingleFilter',
     group: 'primary',
-    queryParamNames: ['pub_category'],
+    queryParamNames: ['pub_furniture'],
     config: {
       // Schema type is enum for SelectSingleFilter
       schemaType: 'enum',
