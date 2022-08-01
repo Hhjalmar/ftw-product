@@ -18,8 +18,8 @@ import {
 } from '../../components';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 
-import facebookImage from '../../assets/Himassa.facebook..png';
-import twitterImage from '../../assets/Himassa.facebook..png';
+import facebookImage from '../../assets/seandavidson_gossamer_rugs_film_04.jpeg';
+import twitterImage from '../../assets/seandavidson_gossamer_rugs_film_04.jpeg';
 
 import SectionHero from './SectionHero/SectionHero';
 import SectionHowItWorks from './SectionHowItWorks/SectionHowItWorks';
