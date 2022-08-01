@@ -16,12 +16,12 @@ const SectionFeatured = props => {
     <div className={classes}>
       <div className={css.heroContent}>
         <h1 className={css.heroMainTitle}>
-          <FormattedMessage id="Himassa Original Cube Table" />
+          <FormattedMessage id="NISSIN & HIMASSA" />
         </h1>
         <h2 className={css.heroSubTitle}>
-          <FormattedMessage id="Made in Helsinki with love." />
+          <FormattedMessage id="We partnered with NISSIN to bring you Japanese craftmanship." />
         </h2>
-        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '618a30d5-2c00-4957-aadf-2e3448a7a583' }} >
+        <NamedLink className={css.heroButton} name="ProfilePage" params={{ id: '62de44a7-8204-4170-85c0-a86deda00e6f' }} >
           <FormattedMessage id="View" />
         </NamedLink>
       </div>

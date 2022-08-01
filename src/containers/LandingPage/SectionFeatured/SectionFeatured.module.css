@@ -29,8 +29,8 @@
 
 .root {
   /* Gradient direction and overlaying the black color on top of the image for better readability */
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url('../../../assets/il_1588xN.3626951821_hmi1 copy.JPG');
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
+    url('../../../assets/section_img02.jpeg');
   background-color: var(--matterColor);
   background-size: cover;
   background-position: center center;
