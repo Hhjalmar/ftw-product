@@ -47,6 +47,11 @@ const HowItWorksPage = () => {
           
             <h3>No weird fees, no nonsense</h3>
             <p>We charge only 11% on sold work, no other fees exist and ever will exist.</p>
+
+            <h3>Apply to be a seller!</h3>
+            <p>Our mission is to bring the most unique items to people. Are you a brand or a designer looking to list your items? List your items today to apply to be a seller!</p>
+          
+
           
 
             <h1>Basics as Buyer</h1>
