@@ -11,6 +11,8 @@ import {
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 import image from './Alvar_Aalto_in_his_Studio_1945_web-1536x864.jpeg';
+import image2 from './Copy of Untitled Design.png';
+
 
 
 
@@ -29,7 +31,36 @@ const BlogPage = () => {
           <h1>BLOG</h1>
 
           <div>
-          <h3>Who was Alvar Aalto?</h3>
+          <h1>TOP  4  ways to succeed as an independent  artist and designer</h1>
+          <img className={css.coverImage} src={image2} alt="Copy of Untitled Design.png" align="center" width="800" height="500"  />
+          <p>There haven’t been a better time to make a living from your craft. In the recent years multiple tools have been made to help you to earn a living from your craft. In this little blog post we will list a few.</p>
+
+          <h1>1. Social Media</h1>
+
+<p>This one is a non-brainer. If you are a creator, you have to put yourself out there.  Luckily with social media you can reach people from around the globe! 
+
+Post photos and videos of your work linking them into your store to make your first sale.</p>
+
+<h1>2. Friends and Family 
+</h1>
+
+<p>If you have people around you who have been supporting you, most likely you will make your first sale to this group of people. Let people know what you are doing and most likely you will be sending packages to your friends place very soon.</p>
+
+<h1>3. Podcasts</h1>
+
+<p>You are your own brand. If you follow podcasts that fall into the theme of what you are doing - pitch yourself to the podcast and possibly appear as a guest! This will drive more traffic to you and your brand.</p>
+
+<h1>4. Marketplaces
+</h1>
+
+<p>If you want to reach the most amount of people without building your own store and starting from scratch - you can use marketplaces to sell your craft. For example we at Himassa market all products automatically and you can start selling with us freely!</p>
+
+
+
+
+
+
+          <h1>Who was Alvar Aalto?</h1>
           <img className={css.coverImage} src={image} alt="Alvar_Aalto_in_his_Studio_1945_web-1536x864.jpeg" align="center" width="800" height="500"  />
 
             <p> Alvar Aalto, Architect and Artist – that was the name of the first studio which Finnish architect and designer Alvar Aalto opened in 1923, while he was still studying at Helsinki University of Technology. Before that he already had an experience of designing his parents’ entire house. Since then his professional, successful career growth started. 
