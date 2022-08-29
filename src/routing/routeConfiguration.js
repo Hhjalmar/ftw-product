@@ -41,6 +41,8 @@ const HelpPage = loadable(() =>import( /* webpackChunkName: "HelpPage" */ '../co
 const BlogPage = loadable(() =>import( /* webpackChunkName: "BlogPage" */ '../containers/BlogPage/BlogPage'));
 const ClothingPage = loadable(() =>import( /* webpackChunkName: "ClothingPage" */ '../containers/ClothingPage/ClothingPage'));
 const HowItWorksPage = loadable(() =>import( /* webpackChunkName: "HowItWorksPage" */ '../containers/HowItWorksPage/HowItWorksPage'));
+const ReusedPage = loadable(() =>import( /* webpackChunkName: "ReusedPage" */ '../containers/ReusedPage/ReusedPage'));
+
 
 
 
@@ -93,6 +95,11 @@ const routeConfiguration = () => {
       path: '/about',
       name: 'AboutPage',
       component: AboutPage,
+    },
+    {
+      path: '/Reused',
+      name: 'ReusedPage',
+      component: ReusedPage,
     },
     {
       path: '/blog',

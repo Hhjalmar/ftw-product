@@ -29,6 +29,8 @@ import SectionFeatured from './SectionFeatured/SectionFeatured';
 import SectionAlfie from './SectionAlfie/SectionAlfie';
 import SectionRecently from './SectionRecently/SectionRecently';
 import SectionUser from './SectionUser/SectionUser';
+import SectionUsed from './SectionUsed/SectionUsed';
+
 import css from './LandingPage.module.css';
 
 export const LandingPageComponent = props => {
@@ -84,6 +86,11 @@ export const LandingPageComponent = props => {
               <div className={css.sectionContent}>
                 <SectionHowItWorks />
               </div>
+              <li className={css.section}>
+              <div className={css.sectionContent}>
+               <SectionUsed />
+              </div>
+              </li>
               <div className={css.heroContainer}>
             <SectionAlfie
               rootClassName={css.AlfieRoot}
@@ -103,6 +110,7 @@ export const LandingPageComponent = props => {
                 <SectionFeatured />
               </div>
               </li>
+
             <li className={css.section}>
               <div className={css.sectionContent}>
                 <SectionRecently />
