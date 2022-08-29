@@ -71,7 +71,7 @@ const ReusedPage = () => {
 
 
 
-<h1><a href='mailto:hello@himassa.com?subject=Me&body=I am interested in Himassa Repurposed Collection!'>Participate</a></h1>
+<h1><a href='mailto:hello@himassa.com?subject=Himassa Repurposed Collection&body=I am interested in Himassa Repurposed Collection!'>Participate</a></h1>
 
 
           
