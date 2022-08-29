@@ -68,6 +68,10 @@ const HowItWorksPage = () => {
             <h3>We got you covered</h3>
             <p>We make sure you get your items in time and your money back if something happens or the item isn't as described. If you have any issues at all, reach out to us at hello(at)himassa.com</p>
 
+            <h3>Refer a friend and earn!</h3>
+            <p>If you refer us to your friend and they make a purchase, we will pay you % of their purchase. This model is progressive, the bigger the purchase - the more you earn. Just ask them to write: "referred by (your name)" when making a purchase.</p>
+
+
           </div>
         </LayoutWrapperMain>
 

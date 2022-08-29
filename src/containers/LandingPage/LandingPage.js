@@ -112,11 +112,13 @@ export const LandingPageComponent = props => {
               <div className={css.sectionContent}>
                 <SectionNew />
               </div>
+              
             </li>
           </ul>
         </LayoutWrapperMain>
         <LayoutWrapperFooter>
           <Footer />
+          
         </LayoutWrapperFooter>
       </LayoutSingleColumn>
     </Page>

@@ -36,6 +36,7 @@ const BlogPage = () => {
           <p>There haven’t been a better time to make a living from your craft. In the recent years multiple tools have been made to help you to earn a living from your craft. In this little blog post we will list a few.</p>
 
           <h1>1. Social Media</h1>
+          
 
 <p>This one is a non-brainer. If you are a creator, you have to put yourself out there.  Luckily with social media you can reach people from around the globe! 
 
