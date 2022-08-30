@@ -63,7 +63,7 @@ const ReusedPage = () => {
             <p>Awesome! Send information of your item to hello@himassa.com</p>
 
             <h3>I don't live in Finland, can I still participate?</h3>
-            <p>Yes! But we won't then pick up the furniture for you, send information about your item  to hello@himassa.com</p>
+            <p>Yes! But we won't then pick up the furniture for you, send information about your item  to hello@himassa.com or list your item with quality photos so we can review the listing.</p>
 
             <p>*We only pick up furniture which is located in Finland at the moment! </p>
 
