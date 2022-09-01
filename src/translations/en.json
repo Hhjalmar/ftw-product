@@ -341,6 +341,7 @@
   "Footer.toHowItWorksPage":"How It works",
   "Footer.toReusedPage":"Himassa Repurposed Collection",
   "Footer.toBlogPage": "Blog",
+  "Footer.toContactPage": "Contact",
   "Footer.toNewListingPage": "Sell your items",
   "ImageCarousel.imageAltText": "Listing image {index}/{count}",
   "ImageFromFile.couldNotReadFile": "Could not read file",
