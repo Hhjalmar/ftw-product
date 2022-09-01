@@ -17,8 +17,7 @@ import css from './AboutPage.module.css';
 import image from './Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of THE CURSED PHARAO.png';
 
 const AboutPage = () => {
-  const { siteTwitterHandle, siteFacebookPage } = config;
-  const siteTwitterPage = twitterPageURL(siteTwitterHandle);
+  const { siteInstagramPage, siteFacebookPage } = config;
 
   // prettier-ignore
   return (
@@ -42,7 +41,7 @@ const AboutPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>"We've built Himassa because we wanted to connect designers, crafters and artists directy to you."</p>
+              <p>"We've built Himassa because we wanted to connect designers, crafters and artists directy to you." Himassa is a Finnish platform and company but built for a global community.</p>
             </div>
 
             <div className={css.contentMain}>
@@ -65,12 +64,12 @@ const AboutPage = () => {
               </h3>
               <p>
                 Himassa is brought to you by the design lovers at{' '}
-                <ExternalLink href="https://www.himassa.com">Vilmari Technologies</ExternalLink>. 
+                <ExternalLink href="https://www.himassa.com">Vilmari Technologies Oy</ExternalLink>. 
               </p>
               <p>
                 You can also checkout our{' '}
                 <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
-                <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
+                <ExternalLink href={siteInstagramPage}>Instagram</ExternalLink>.
               
               </p>
             </div>
