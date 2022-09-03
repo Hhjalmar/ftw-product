@@ -10,7 +10,6 @@ import {
 
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
-import image from './Screenshot 2022-08-09 at 17.58.30.png';
 
 
 import css from './FAQPage.module.css';
@@ -25,24 +24,31 @@ const FAQPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.mainWrapper}>
-          <h1>Frequently Asked Questions</h1>
+          <h1>Return and Refund policy</h1>
 
           <div>
-            <h3>How do I start Selling?</h3>
-            <p>After signing up and verifying your account through the email we send you, fill in your profile information using a photo and add in your payment details, after this you can list your items and if they are approved - you can start selling.</p>
+            <h3>What are your refund policy?</h3>
+            <p>If you receive a faulty product or a product which does not correspond the pictures and description of the product on our site, you are titled to refund. Otherwise sellers state their refund policy themselves.</p>
+
+            <p>If you have any issues with your product, please contact us at hello@himassa.com</p>
+
+            <h3>Eligibility</h3>
+<p>Here’s the criteria your purchase must meet to be eligible for a refund:</p>
+
+<p>You must have purchased the item within 30 calendar days and you must contact us immediately after the product arrives.</p>
+<p>The item must be unused, in its original condition. 
+The item must be in its original packaging.
+You must be able to provide a proof of purchase.
+We must be able to find the case valid, this might differ from case to case.
+</p>
+<h3>What happens after the eligibility period?</h3>
+<p>We can’t accept returns after 30 calendar days have passed. </p>
+
+
           
-            <h3>What are your fees?</h3>
-            <p>We charge 11% on purchases, to start selling with us is free!</p>
-
-            <h3>How does the shipping work?</h3>
-            <p>The seller is responsbile on the shipping. We make sure that the items are received by the buyer, you can also follow the shipment in real time through the tracking number that the seller provides.</p>
             
-            <h3>What kind pictures I should take of my items?</h3>
-            <p>Clear photos that includes only the item that you are selling,  against white background  - poor quality listing can be taken down from our site and you might be asked to list them item again with better photos. You can have other kinds of photos but the first image people see should be clear, see the example below.</p>
-            <img className={css.coverImage} src={image} alt="Screenshot 2022-08-09 at 17.58.30.png" align="center" width="400" height="500"  />
-
-            <p>A good rule of thumb is to make sure that the photo is brightly lit and you can see only the item you are selling.</p>
-            
+   
+          
            
           </div>
         </LayoutWrapperMain>
