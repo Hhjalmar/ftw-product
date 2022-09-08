@@ -30,6 +30,8 @@ import SectionAlfie from './SectionAlfie/SectionAlfie';
 import SectionRecently from './SectionRecently/SectionRecently';
 import SectionUser from './SectionUser/SectionUser';
 import SectionUsed from './SectionUsed/SectionUsed';
+import video1 from './Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4';
+
 
 import css from './LandingPage.module.css';
 
@@ -43,6 +45,7 @@ export const LandingPageComponent = props => {
   const schemaTitle = intl.formatMessage({ id: 'LandingPage.schemaTitle' }, { siteTitle });
   const schemaDescription = intl.formatMessage({ id: 'LandingPage.schemaDescription' });
   const schemaImage = `${config.canonicalRootURL}${facebookImage}`;
+  
 
   return (
     <Page
@@ -81,6 +84,21 @@ export const LandingPageComponent = props => {
               <div className={css.sectionContentFirstChild}>
                 <SectionFilteredSearches />
               </div>
+             
+    
+      
+             <a class="inactiveLink"> 
+              <video max="" width="100%" height="auto" controls="loop" autoplay="autoplay" muted="muted" loop="true" 
+   src={video1}              
+    alt="Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4" type="video/mp4" > 
+Your browser does not support the video tag.
+
+</video>
+</a>
+
+
+
+
             </li>
             <li className={css.section}>
               <div className={css.sectionContent}>

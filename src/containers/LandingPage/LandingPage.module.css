@@ -35,6 +35,10 @@
   width: 100%;
   height: 100%;
 }
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
 
 .hero {
 

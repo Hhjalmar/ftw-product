@@ -10,6 +10,7 @@ import {
 
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
+import video1 from './Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4';
 
 
 import css from './FAQPage.module.css';
@@ -25,6 +26,10 @@ const FAQPage = () => {
 
         <LayoutWrapperMain className={css.mainWrapper}>
           <h1>Return and Refund policy</h1>
+          <video max="" width="100%" height="auto" controls="loop" autoplay="autoplay" muted="muted" loop="true"
+   src={video1} alt="Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
           <div>
             <h3>What are your refund policy?</h3>
@@ -41,8 +46,13 @@ The item must be in its original packaging.
 You must be able to provide a proof of purchase.
 We must be able to find the case valid, this might differ from case to case.
 </p>
+
 <h3>What happens after the eligibility period?</h3>
 <p>We can’t accept returns after 30 calendar days have passed. </p>
+
+
+
+
 
 
           
