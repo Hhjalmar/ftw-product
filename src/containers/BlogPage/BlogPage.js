@@ -12,6 +12,7 @@ import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 import image from './Alvar_Aalto_in_his_Studio_1945_web-1536x864.jpeg';
 import image2 from './Copy of Untitled Design.png';
+import image3 from './www.himassa.com.jpg';
 
 
 
@@ -29,6 +30,13 @@ const BlogPage = () => {
 
         <LayoutWrapperMain className={css.mainWrapper}>
           <h1>BLOG</h1>
+
+
+          
+          <h1>What makes your design good design?</h1>
+          <img className={css.coverImage} src={image3} alt="www.himassa.com.jpg" align="center" width="800" height="1600"  />
+          
+         
 
           <div>
           <h1>TOP  4  ways to succeed as an independent  artist and designer</h1>
