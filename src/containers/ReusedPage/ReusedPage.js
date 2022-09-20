@@ -43,15 +43,15 @@ const ReusedPage = () => {
           
             <h1>Sounds cool! What it is?</h1>
 
-            <h3>We take your design furniture, make it presentanble, sell it and take cut from the profits while you net the rest.</h3>
+            <h3>Take your design furniture, make it presentable, sell it through us and make a profit!</h3>
             <p></p>
           
 
             <h3>How can I sell my furniture through you?</h3>
-            <p>Send an email to hello@himassa.com titled "Himassa repurpose" with three pictures of you furniture with some info of your item. We will then go through the material, and if it's a fit - we will pick it up* (free of charge) sell it behalf of you.</p>
+            <p>You can start immediately for free by creating an account with us and listing your items with us, we will then analyse your listings and approve them if all looks good.</p>
 
             <h3>How do you set furniture value?</h3>
-            <p>Our team of experts set a price for your furniture during the estimation process, the final price is calculated when then item is brought to our offices.</p>
+            <p>You can value it yourself, but our team of experts set a price for your furniture during the estimation process - if a change is needed. You cannot change the value when the item is accepted.</p>
           
             <h3>Awesome! How long does it usually take to sell and when will I get my money?</h3>
             <p>Sale time can take anywhere from few days to up to a month. You will get your cut as soon as paymeny is processed.</p>
@@ -59,19 +59,20 @@ const ReusedPage = () => {
             <h3>Sounds great! What are your fees?</h3>
             <p>Himassa takes only 11% processing fee which is set on top of the set price.</p>
 
+            <h3>Buyer and seller protection?</h3>
+            <p>Don't worry we have you covered.</p>
+
             <h3>I want to participate!</h3>
-            <p>Awesome! Send information of your item to hello@himassa.com</p>
+            <p>Awesome! Start up signing up and creating an account with us.</p>
 
             <h3>I don't live in Finland, can I still participate?</h3>
-            <p>Yes! But we won't then pick up the furniture for you, send information about your item  to hello@himassa.com or list your item with quality photos so we can review the listing.</p>
-
-            <p>*We only pick up furniture which is located in Finland at the moment! </p>
+            <p>Yes! </p>
 
 
 
 
 
-<h1><a href='mailto:hello@himassa.com?subject=Himassa Repurposed Collection&body=I am interested in Himassa Repurposed Collection!'>Participate</a></h1>
+<h1><a href='mailto:hello@himassa.com?subject=Himassa Repurposed Collection&body=I am interested in Himassa Repurposed Collection!'>Register for free -></a></h1>
 
 
           

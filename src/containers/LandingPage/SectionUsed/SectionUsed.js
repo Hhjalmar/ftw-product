@@ -16,10 +16,10 @@ const SectionUsed = props => {
     <div className={classes}>
       <div className={css.heroContent}>
         <h1 className={css.heroMainTitle}>
-          <FormattedMessage id="Sell Your Furniture Through Us" />
+          <FormattedMessage id="Sell Your Seconhand furniture" />
         </h1>
         <h2 className={css.heroSubTitle}>
-          <FormattedMessage id="Add your design furniture to Himassa Repurposed collection and earn!" />
+          <FormattedMessage id="Love a vintage items with a story? So do we! Let us help you turn your vintage finds into cash!" />
         </h2>
         <NamedLink name="ReusedPage" className={css.heroButton}>
           <FormattedMessage id="Learn More" />
