@@ -13,6 +13,12 @@ import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 import image from './Alvar_Aalto_in_his_Studio_1945_web-1536x864.jpeg';
 import image2 from './Copy of Untitled Design.png';
 import image3 from './www.himassa.com.jpg';
+import image4 from './Screenshot 2022-09-25 at 12.44.41.png';
+import image5 from './Screenshot 2022-09-25 at 12.56.22.png';
+import image6 from './Screenshot 2022-09-25 at 13.00.39.png';
+import image7 from './Screenshot 2022-09-25 at 13.03.22.png';
+import image8 from './Screenshot 2022-09-25 at 13.05.56.png';
+
 
 
 
@@ -30,6 +36,60 @@ const BlogPage = () => {
 
         <LayoutWrapperMain className={css.mainWrapper}>
           <h1>BLOG</h1>
+
+          <h1>Must have September finds from our users</h1>
+          <p>The evenings are getting darker, time to cozy up with these finds from our site!</p>
+
+          <img className={css.coverImage} src={image5} alt="Notting Hill Shopping Bag" align="center" width="800" height="800"  />
+
+
+
+
+          <a href="https://www.himassa.com/l/the-notting-hill-canvas-shopping-bag/632ec472-07bc-48d8-8096-befee79f9604" align="center" alt="Notting Hill Shopping Bag">Notting Hill Shopping Bag
+</a>
+
+
+<img className={css.coverImage} src={image4} alt="Screenshot 2022-09-25 at 12.44.41.png" align="center" width="800" height="800"  />
+
+
+
+
+          <a href="https://www.himassa.com/l/marc-jacobs-tote-bag/632ec337-9c7d-42aa-a6d1-b7ce85558d31" align="center" alt="Marc Jacobs Totebag">Marc Jacobs Tote Bag 
+</a>
+
+
+<img className={css.coverImage} src={image6} alt="Bruno Mathsson - Chair
+" align="center" width="800" height="800"  />
+
+          <a href="https://www.himassa.com/l/bruno-mathsson-chair/632ebe65-3bac-498b-b41c-d9cfa12956c7" align="center" alt="Bruno Mathsson - Chair
+">Bruno Mathsson - Chair
+
+</a>
+
+
+
+<img className={css.coverImage} src={image7} alt="Sofa Alanda Paolo B&B Italia
+
+" align="center" width="800" height="800"  />
+
+          <a href="https://www.himassa.com/l/sofa-alanda-paolo-bb-italia/632c4216-79b8-4615-a5c4-e0fac595f748" align="center" alt="Sofa Alanda Paolo B&B Italia
+
+">Sofa Alanda Paolo B&B Italia
+
+
+</a>
+
+<img className={css.coverImage} src={image8} alt="Halo glass 
+
+" align="center center" width="600" height="800"  />
+
+          <a href="https://www.himassa.com/l/halo-glass-2-units-pack/631ee413-d00e-4c20-b35d-dd368dcb9977" align="center" alt="Halo glass 
+
+">Halo glass 
+
+
+</a>
+
 
 
           
