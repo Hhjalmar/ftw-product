@@ -1,7 +1,7 @@
 @import '../../../styles/propertySets.css';
 
 .mobileInputRoot {
-  width: 100%;
+  width: 50%;
 }
 
 .desktopInputRoot {
