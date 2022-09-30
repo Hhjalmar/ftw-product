@@ -79,7 +79,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 110%;
+  width: 100%;
   margin-bottom: 18px;
 
   @media (--viewportMedium) {
@@ -92,7 +92,7 @@
 /* Desktop: logo and organization stuff */
 .organization {
   flex-shrink: 0;
-  flex-basis: 220px;
+  flex-basis: 100px;
   display: none;
   margin-right: 24px;
   margin-bottom: 24px;
@@ -149,7 +149,7 @@
 /* Desktop and Mobile: links to more information */
 .infoLinks {
   order: 2;
-  flex-basis: 165px;
+  flex-basis: 150px;
   margin-right: 24px;
   margin-bottom: 24px;
 
