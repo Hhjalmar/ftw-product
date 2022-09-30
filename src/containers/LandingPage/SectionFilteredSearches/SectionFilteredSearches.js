@@ -12,7 +12,7 @@ import css from './SectionFilteredSearches.module.css';
 // Update images by saving images to src/LandingPage/SeactionFilteredSearches/images directory.
 // If those images have been saved with the same name, no need to make changes to these imports.
 import imageForFilter1 from './images/IMG_0494 (1).jpeg';
-import imageForFilter2 from './images/Screenshot 2022-06-10 at 14.46.14.png';
+import imageForFilter2 from './images/ellie-cooper-gzxiVD_HUs0-unsplash.jpeg';
 import imageForFilter3 from './images/IMG_2386.jpg';
 
 // Thumbnail image for the search "card"
@@ -71,7 +71,7 @@ const SectionFilteredSearches = props => {
           link="http://localhost:3000/s"
         />
         <FilterLink
-          name="Rugs"
+          name="Fashion"
           image={imageForFilter2}
           link="https://localhost:3000/s"
         />
