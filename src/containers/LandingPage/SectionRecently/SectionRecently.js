@@ -11,9 +11,9 @@ import css from './SectionRecently.module.css';
 
 // Update images by saving images to src/LandingPage/SeactionFilteredSearches/images directory.
 // If those images have been saved with the same name, no need to make changes to these imports.
-import imageForFilter1 from './images/Screenshot 2022-08-08 at 12.29.11.png';
-import imageForFilter2 from './images/Screenshot 2022-08-08 at 12.35.26.png';
-import imageForFilter3 from './images/Screenshot 2022-08-08 at 12.36.58.png';
+import imageForFilter1 from './images/Screenshot 2022-10-06 at 12.52.18.png';
+import imageForFilter2 from './images/Screenshot 2022-10-06 at 12.54.21.png';
+import imageForFilter3 from './images/Screenshot 2022-10-06 at 12.54.30.png';
 
 // Thumbnail image for the search "card"
 class ThumbnailImage extends Component {
@@ -61,19 +61,19 @@ const SectionRecently = props => {
       </div>
       <div className={css.filteredSearches}>
         <FilterLink
-          name="Art"
+          name="art"
           image={imageForFilter1}
-          link="http://localhost:3000/l/kibako-ack-106/62ede9d0-9411-47e6-945d-c9bc8c42d9a3"
+          link="http://localhost:3000/l/vintage-puffer/6336a5d1-d09d-490f-8bad-92dcc275d456"
         />
         <FilterLink
           name="Rugs"
           image={imageForFilter2}
-          link="https://localhost:3000/l/toy-stool-wos-1722/62ecc2d1-b5dd-4974-9bca-8d065bb5f277"
+          link="https://localhost:3000/l/vintage-90-s-denim-jacket/6336a531-6358-4e55-ba0b-bd9f08337c53"
         />
         <FilterLink
           name="Furniture"
           image={imageForFilter3}
-          link="http://localhost:3000/l/forms-dining-chair-nbc-452/62edfc86-6f4e-4a1c-b425-abb2b68fd991"
+          link="http://localhost:3000/l/80-s-puffer/63369f4e-1aee-4050-bf35-404ca9b4a325"
         />
       </div>
     </div>

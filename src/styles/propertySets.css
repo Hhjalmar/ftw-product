@@ -23,7 +23,7 @@
   --backgroundImage: {
     /* Gradient direction and overlaying the black color on top of the image for better readability */
     background: linear-gradient(-0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-      url('../../assets/New_ElsaHosk_July2020-246.webp');
+      url('../../assets/Copy of Copy of Copy of Untitled Design.jpeg');
 
     /* Add loading color for the div */
     background-color: var(--matterColor);

@@ -30,7 +30,7 @@ import SectionAlfie from './SectionAlfie/SectionAlfie';
 import SectionRecently from './SectionRecently/SectionRecently';
 import SectionUser from './SectionUser/SectionUser';
 import SectionUsed from './SectionUsed/SectionUsed';
-import video1 from './Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4';
+// import video1 from './Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4';
 
 
 import css from './LandingPage.module.css';
@@ -85,16 +85,13 @@ export const LandingPageComponent = props => {
                 <SectionFilteredSearches />
               </div>
              
-    
-      
-             <a class="inactiveLink"> 
-              <video max="" width="100%" height="auto" controls="loop" autoplay="autoplay" muted="muted" loop="true" 
-   src={video1}              
-    alt="Black And Blue Neon Gradient Welcome to My Channel Youtube Intro.mp4" type="video/mp4" > 
-Your browser does not support the video tag.
+              </li>
 
-</video>
-</a>
+<li className={css.section}>
+  <div className={css.sectionContent}>
+    <SectionRecently />
+  </div>
+      
 
 
 
@@ -131,12 +128,7 @@ Your browser does not support the video tag.
               <div className={css.sectionContent}>
                 <SectionFeatured />
               </div>
-              </li>
-
-            <li className={css.section}>
-              <div className={css.sectionContent}>
-                <SectionRecently />
-              </div>
+         
             </li>
             <li className={css.section}>
               <div className={css.sectionContent}>
