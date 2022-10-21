@@ -37,6 +37,34 @@ const BlogPage = () => {
         <LayoutWrapperMain className={css.mainWrapper}>
           <h1>BLOG</h1>
 
+          <h1>What is Upcycling?</h1>
+
+          <p>Upcycling represents a variety of processes by which “old” products get to be modified and get a second life as they’re turned into a “new” product. In this way, thanks to the mix and aggregation of used materials, components and items, the end result is a “new product” with more value than the original value of the sum of all its components. In other others, upcycling is about materials or items that get to be re-adapted and/or re-purposed in a creative way, and whose lifespan is, therefore, expanded.
+
+<h1>Other Definitions Of Upcycling</h1>
+Upcycling Definition: Richardson’s paper defines upcycling as a way designers can directly reduce the net volume of household solid waste entering the waste stream; and more broadly, net material volumes in the global product market.
+
+Upcycling Definition: Yi et. al. define upcycling as the conversion of waste materials to something useful or valuable, underlining is it a useful concept that can be applied not only to the waste design industry but also to waste recycling and resource circulation
+
+<h1>Examples Of Upcycling</h1>
+upcycling definition
+
+Upcycling In Fashion: The production process of the textil industry is complex and needs huge amounts of energy, water, polluting chemicals, among other resources. It’s very polluting to the environment and its supply chain often isn’t an ethical one. Therefore, upcycling comes as a nice solution that’s starting to be developed not only by small artisans but also starting to boom in companies like Patagonia (though more in a re-crafting concept). Damaged clothes no longer fit for wearing are “disassembled” and their textiles get to reused for the creation of some other piece of clothing or as cases, bookmarks or wherever the designer’s creativity takes them.
+
+Upcycling Furniture: It’s about taking old, wasted or broken furniture and re-purposing it. From broken cabinets whose shelves can be screwed into an old door entry door that will work as a decoration piece, or putting some feet supports in a one-side opened bathtub and turning into a sofa: there are no limits to the power of creativity in upcycling furniture and other household items.
+
+Industrial Upcycling: There are established manufacturing organizations reusing the waste in products that re-enter consumer cycles. Examples of this are companies like Terracycle that creates waste collection programs for waste that is impossible or difficult to recycle and ends up producing things like park benches or pencil cases or tote bags from food and drink packaging.
+
+Upcycling And Recycling: What’s The Difference?
+The difference between upcycling and recycling is that the latter takes materials like paper, metal, plastic or glass and breaks them down – hence creating a new product (typically of more inferior quality). And as we’ve seen, upcycling doesn’t mean breaking down materials but rather sorting and reusing them in a different, often more fashionable way.
+
+Upcycling And Remanufacturing: What’s The Difference?
+According to Richardson, remanufacturing can be understood as a method of extending product lifecycles through reuse and refabrication of products in closed-loop cycles (in other words, contained within a single product line. On the other hand, the goal of upcycling is to refashion and integrate discarded components and materials into a new range of diverse products within open-loop cycles.
+
+<h1>Is Upcycling Eco-Friendly?</h1>The Ecological Value Of Upcycling
+If we look at upcycling from a large, scale perspective, we can say that in theory, it contributes to the reduction of CO2 emissions. Not only because the lifetimes of the materials used are extended, but also because there’s, in theory, contributes ultimately to reducing carbon emissions by extending lifetimes of used materials, components and products, and spending less energy in extracting, transforming, new ones or recycling.</p>
+
+
           <h1>Must have September finds from our users</h1>
           <p>The evenings are getting darker, time to cozy up with these finds from our site!</p>
 
