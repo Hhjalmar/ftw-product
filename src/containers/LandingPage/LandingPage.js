@@ -84,15 +84,12 @@ export const LandingPageComponent = props => {
               <div className={css.sectionContentFirstChild}>
                 <SectionFilteredSearches />
               </div>
-             
+  
               </li>
-
-<li className={css.section}>
-  <div className={css.sectionContent}>
-    <SectionRecently />
-  </div>
-      
-
+            <li className={css.section}>
+              <div className={css.sectionContent}>
+                <SectionFeatured />
+              </div>
 
 
 
@@ -123,11 +120,7 @@ export const LandingPageComponent = props => {
               <div className={css.sectionContent}>
                <SectionUser />
               </div>
-            </li>
-            <li className={css.section}>
-              <div className={css.sectionContent}>
-                <SectionFeatured />
-              </div>
+        
          
             </li>
             <li className={css.section}>
