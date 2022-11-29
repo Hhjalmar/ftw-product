@@ -11,9 +11,10 @@ import css from './SectionRecently.module.css';
 
 // Update images by saving images to src/LandingPage/SeactionFilteredSearches/images directory.
 // If those images have been saved with the same name, no need to make changes to these imports.
-import imageForFilter1 from './images/Screenshot 2022-10-06 at 12.52.18.png';
 import imageForFilter2 from './images/Screenshot 2022-10-06 at 12.54.21.png';
 import imageForFilter3 from './images/Screenshot 2022-10-06 at 12.54.30.png';
+
+
 
 // Thumbnail image for the search "card"
 class ThumbnailImage extends Component {
@@ -62,7 +63,7 @@ const SectionRecently = props => {
       <div className={css.filteredSearches}>
         <FilterLink
           name="art"
-          image={imageForFilter1}
+          image={imageForFilter2}
           link="http://localhost:3000/l/vintage-puffer/6336a5d1-d09d-490f-8bad-92dcc275d456"
         />
         <FilterLink

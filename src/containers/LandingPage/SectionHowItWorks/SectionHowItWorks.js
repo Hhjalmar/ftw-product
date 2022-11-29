@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import image from './logo1.gif';
+
+
 
 import { FormattedMessage } from '../../../util/reactIntl';
 
 import { NamedLink } from '../../../components';
 
 import css from './SectionHowItWorks.module.css';
+
 
 const SectionHowItWorks = props => {
   const { rootClassName, className } = props;
@@ -16,6 +20,8 @@ const SectionHowItWorks = props => {
     <div className={classes}>
       <div className={css.title}>
         <FormattedMessage id="SectionHowItWorks.titleLineOne" />
+        <img className={css.coverImage} src={image} alt="Computer floating" align="center center" width="300" height="300" />
+
       </div>
 
       <div className={css.steps}>
@@ -23,6 +29,7 @@ const SectionHowItWorks = props => {
           <h2 className={css.stepTitle}>
             <FormattedMessage id="SectionHowItWorks.part1Title" />
           </h2>
+
           <p>
             <FormattedMessage id="SectionHowItWorks.part1Text" />
           </p>
