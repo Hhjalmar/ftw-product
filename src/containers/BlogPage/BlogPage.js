@@ -37,6 +37,19 @@ const BlogPage = () => {
 
         <LayoutWrapperMain className={css.mainWrapper}>
           <h1>BLOG</h1>
+          <h1>What is Nordic art?</h1>
+        <p>The term "Nordic art" describes the visual culture of the Nordic countries. The origins of Nordic art can be traced back to prehistoric times and Viking art, which was often influenced by mythology. In modern times, artistic movements such as Romanticism and nationalism became increasingly important in Nordic countries' cultural development. Today, Nordic artists are known for their bold use of color and dramatic subject matter. Themes such as nature, identity and spirituality remain central to their work today.</p>
+
+         <h>Nordic art explores the relationship between humans and nature</h>
+       <p>The art of the Nordic countries explores themes of nature and the environment, spirituality, mythology, history and culture. It’s also been called “Nordic design” because it often features clean lines, which reflect the minimalist style that was popular in Scandinavian countries during the 20th century.
+
+In recent years this style has been used by artists around the world who want to evoke a sense of timelessness and purity in their work. This includes furniture designers as well as painters and sculptors who incorporate natural materials like wood or stone into their creations.</p>
+    
+    <h1>Nordic artists are known for their bold...</h1>
+
+    <p>Nordic artists are known for their bold use of color, light and perspective. They also tend to incorporate natural materials like wood or stone into their works.
+
+Nordic artists are known for simple shapes that create strong lines and contrasts. Their subjects are often animals, plants and flowers as well as people that they have observed in everyday life. These subjects may be portrayed with a soft touch or with a more academic style depending on the artist's preference. Many Nordic artists combine several of these techniques in one painting to create an interesting effect.</p>
           <h1>What is original singular art and ai art?</h1>
 
           <p>Original singular art and ai art are two different types of art that have been gaining popularity in recent years. Both are created by computers, but they differ in their approach to creation.</p>
